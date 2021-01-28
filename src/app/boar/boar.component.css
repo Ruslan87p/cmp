@@ -1,0 +1,34 @@
+#board {
+  margin: 0 auto;
+  width: 640px;
+  height: 640px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+::ng-deep.black {
+  background-color: #66b4b6;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+::ng-deep.white {
+  background-color: #e7e7e7;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+::ng-deep.chip-black {
+  background-color: #e44c39;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+::ng-deep.chip-white {
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
